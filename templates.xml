@@ -3,5 +3,5 @@
 	<template autoinsert="true" context="java" deleted="false" description="log.debug(String.format(&quot;%s&quot;, var));" enabled="true" name="logd">log.debug(String.format(&quot;%s&quot;, ${cursor}));</template>
 	<template autoinsert="true" context="java" deleted="false" description="log.info(String.format(&quot;%s&quot;, var));" enabled="true" name="logi">log.info(String.format(&quot;%s&quot;, ${cursor}));</template>
 	<template autoinsert="true" context="java" deleted="false" description="log.warn(String.format(&quot;%s&quot;, var));" enabled="true" name="logw">log.warn(String.format(&quot;%s&quot;, ${cursor}));</template>
-	<template autoinsert="true" context="java" deleted="false" description="log.error(String.format(&quot;%s&quot;, var));" enabled="true" name="loge">log.error(String.format(&quot;%s&quot;, ${cursor}));</template>
+	<template autoinsert="true" context="java" deleted="false" description="log.error(String.format(&quot;%s&quot;, var));" enabled="true" name="loge">log.error(String.format(&quot;%s&quot;, ${cursor}), e);</template>
 </templates>
